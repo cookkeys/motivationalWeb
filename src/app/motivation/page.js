@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./motivation.module.css"
 import DataComp2 from '../components/dataComp2'
+import Page2 from '../newPage2/page'
 
 export default function MotivationPage() {
   const list=[{image:"https://karsh.org/wordpress/wp-content/uploads/2016/10/Yousuf-Karsh-Albert-Einstein-1948-02-1899x1960.jpg", content:"einstein"},
@@ -15,6 +16,7 @@ export default function MotivationPage() {
         {
           list.map((data,index)=> <DataComp2 key={index} imageUrl={data.image} content={data.content}/>)
         }
+        {/* <Page2/> */}
       </div>
 
     </div>

@@ -16,10 +16,12 @@
     .main_div h3{
         color: white;
         margin:20px 0;
+        transition: 300ms ease-in;
     }
 
     .main_div h3 :hover{
         color: rgb(34, 136, 238);
+        transition: 300ms ease-out;
     }
     
     .outer_div_1{
@@ -50,10 +52,12 @@
     
     .outer_div_2 p{
         margin: 20px;
+        transition: 300ms ease-in;
     }
 
     .outer_div_2 p:hover{
         color: rgb(34, 136, 238);
+        transition: 300ms ease-out;
     }
     
     .outer_div_3{
@@ -67,10 +71,12 @@
     
     .outer_div_3 p:hover{
         color: rgb(34, 136, 238);
+        transition: 300ms ease-in;
     }
     
     .outer_div_3 p{
         margin: 20px;
+        transition: 300ms ease-out;
     }
     
     .outer_div_4{
@@ -84,10 +90,12 @@
 
     .outer_div_4 p:hover{
         color: rgb(34, 136, 238);
+        transition: 300ms ease-in;
     }
     
     .outer_div_4 p{
         margin: 20px;
+        transition: 300ms ease-out;
     }
     
     .icons{

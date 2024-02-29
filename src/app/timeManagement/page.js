@@ -16,7 +16,7 @@ export default function TimeManagement() {
         {
           list.map((data,index)=><DataComp2 key={index} imageUrl={data.image} content={data.content}/>)
         }
-        <Page/>
+        {/* <Page/> */}
       </div>
     
   )

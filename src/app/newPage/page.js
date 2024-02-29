@@ -10,7 +10,7 @@ export default function Page() {
     setData(d.entries);
   };
   useEffect(() => {
-    gettingData();
+    gettingData()
   }, []);
   return <div>
     <div>
