@@ -1,0 +1,336 @@
+@media screen and (min-width: 900px){
+    .main_div{
+        margin-top: 30px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 450px;
+    }
+    
+    .main_div p{
+        color:white;
+        margin: 30px 0;
+    }
+    
+    .main_div h3{
+        color: white;
+        margin:20px 0;
+    }
+
+    .main_div h3 :hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_1{
+        margin-top: 40px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin:20px;
+        width: 25%;
+    }
+    
+    .Logo{
+        font-size: 32px;
+        font-weight: 520;
+        /* color:white; */
+    }
+    
+    .outer_div_2{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+ 
+    
+    .outer_div_2 p{
+        margin: 20px;
+    }
+
+    .outer_div_2 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_3{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+    
+    .outer_div_3 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_3 p{
+        margin: 20px;
+    }
+    
+    .outer_div_4{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+
+    .outer_div_4 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_4 p{
+        margin: 20px;
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .icon1, .icon2, .icon3, .icon4{
+        color:white;
+        margin: 4px;
+        font-size: 20px; transition: 300ms ease-in-out;
+    }
+
+    .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+        color: rgb(34, 136, 238);
+        transition: 300ms ease-in-out;
+        
+    }
+    
+}
+@media screen and (max-width: 900px) and (min-width: 520px){
+    .main_div{
+        margin-top: 20px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 400px;
+    }
+    
+    .main_div p{
+        color:white;
+        margin: 20px 0;
+    }
+    
+    .main_div h3{
+        color: white;
+        margin:30px 0;
+    }
+
+    .main_div h3 :hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_1{
+        margin-top: 35px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin:20px;
+        width: 25%;
+    }
+    
+    .Logo{
+        font-size: 32px;
+        font-weight: 520;
+        /* color:white; */
+    }
+    
+    .outer_div_2{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+ 
+    .outer_div_2 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_2 p{
+        margin: 20px;
+    }
+    
+    .outer_div_3{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+    
+    .outer_div_3 p{
+        margin: 20px;
+    }
+
+    .outer_div_3 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_4{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+    
+    .outer_div_4 p{
+        margin: 20px;
+    }
+
+    .outer_div_4 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .icon1, .icon2, .icon3, .icon4{
+        color:white;
+        margin: 4px;
+        font-size: 20px;
+    }
+    
+    .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+        color: rgb(34, 136, 238);
+    }
+}
+@media screen and (max-width: 520px){
+    .main_div{
+        margin-top: 10px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .main_div p{
+        color:white;
+        margin: 10px 0;
+    }
+    
+    .main_div h3{
+        color: white;
+        margin:10px 0;
+    }
+
+    .main_div h3 :hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_1{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .Logo{
+        font-size: 32px;
+        font-weight: 520;
+        /* color:white; */
+    }
+    
+    .outer_div_2{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+ 
+    .outer_div_2 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_2 p{
+        margin: 10px;
+    }
+    
+    .outer_div_3{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .outer_div_3 p{
+        margin: 10px;
+    }
+
+    .outer_div_3 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .outer_div_4{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .outer_div_4 p{
+        margin: 10px;
+    }
+
+    .outer_div_4 p:hover{
+        color: rgb(34, 136, 238);
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .icon1, .icon2, .icon3, .icon4{
+        color:white;
+        margin: 4px;
+        font-size: 20px;
+    }
+    
+    .icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover{
+        color: rgb(34, 136, 238);
+    }
+}

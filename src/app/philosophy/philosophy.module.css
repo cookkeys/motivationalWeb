@@ -1,0 +1,27 @@
+@media screen and (min-width: 900px){
+    .outer_div_1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 520px){
+    .outer_div_1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+        align-self: center;
+        justify-items: center;
+        padding: 0 60px;
+    }
+}
+@media screen and (max-width: 520px){
+    .outer_div_1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-self: center;
+        justify-items: center;
+        gap:10px;
+        padding: 0 60px;
+    }
+}

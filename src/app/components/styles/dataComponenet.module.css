@@ -1,0 +1,114 @@
+@media screen and (min-width: 900px){
+    .outer_div_1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        width: 27vw;
+        margin: 20px 5px;
+        padding:10px;
+        box-shadow: rgb(123, 123, 123) 0px 0px 5px 0px;
+    }
+    
+    .img1{
+        width: 100%;
+        /* padding: 2px 2px; */
+        border-radius: 5px;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .name1{
+        font-weight: 600;
+        padding: 40px 0px;
+    }
+    
+    .content1{
+        font-size: 13px;
+    }
+    
+    .name1, .content1{
+        padding-top:10px;
+        padding: 10px 0px;
+        color: rgb(0, 0, 0);
+    }
+    
+}
+@media screen and (max-width: 900px) and (min-width: 520px){
+    .outer_div_1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        width: 100%;
+        margin: 10px 10px;
+        padding:10px;
+        box-shadow: rgb(123, 123, 123) 0px 0px 5px 0px;
+    }
+    
+    .img1{
+        width: 100%;
+        /* padding: 2px 2px; */
+        border-radius: 5px;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .name1{
+        font-weight: 600;
+        padding: 40px 0px;
+    }
+    
+    .content1{
+        font-size: 13px;
+    }
+    
+    .name1, .content1{
+        padding-top:10px;
+        padding: 10px 0px;
+        color: rgb(0, 0, 0);
+    }
+    
+}
+@media screen and (max-width: 520px){
+    .outer_div_1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border-radius: 7px;
+        width: 100%;
+        margin: 10px 10px;
+        padding:10px;
+        box-shadow: rgb(123, 123, 123) 0px 0px 5px 0px;
+    }
+    
+    .img1{
+        width: 100%;
+        /* padding: 2px 2px; */
+        border-radius: 5px;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .name1{
+        font-weight: 600;
+        padding: 40px 0px;
+    }
+    
+    .content1{
+        font-size: 13px;
+    }
+    
+    .name1, .content1{
+        padding-top:10px;
+        padding: 10px 0px;
+        color: rgb(0, 0, 0);
+    }
+}
+
